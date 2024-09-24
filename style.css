@@ -1,0 +1,183 @@
+/* Root variables for colors and fonts */
+:root {
+  --primary-color: #F0B400;
+  --background-color: #000000;
+  --text-color: #ffffff;
+  --font-family: 'Bebas Neue', sans-serif; /* Use Bebas Neue as primary font */
+}
+
+/* Global settings */
+body {
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif; /* Use Nunito Sans for body text */
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.container {
+  width: 90%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+/* Navigation bar */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  padding: 20px 0;
+}
+
+.logo-image {
+  width: 120px;
+}
+
+.navmenu {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.nav-item:hover {
+  color: var(--primary-color);
+}
+
+/* Hero section */
+.hero {
+  background-image: url('images/hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 4em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.hero-button {
+  font-family: 'Bebas Neue', sans-serif;
+  background-color: var(--primary-color);
+  padding: 10px 30px;
+  border-radius: 50px;
+  color: var(--text-color);
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Projects section */
+.projects {
+  padding: 60px 0;
+}
+
+.section-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.project-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.project-card {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.project-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5em;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+/* Contact section */
+.contact {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.email-input {
+  padding: 10px;
+  border: 2px solid var(--primary-color);
+  border-radius: 50px;
+  width: 300px;
+}
+
+.submit-button {
+  font-family: 'Bebas Neue', sans-serif;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* Footer */
+.footer {
+  background-color: #1a1a1a;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-icons img {
+  width: 30px;
+  margin: 0 10px;
+}
+
+ /* Video Section */
+ .video-section {
+  background-color: #1a1a1a;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.video-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  border: 5px solid var(--primary-color);
+  border-radius: 10px;
+  overflow: hidden;
+}
